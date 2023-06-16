@@ -21,7 +21,7 @@ public class Ex03 {
         }
         System.out.println("Informe a idade: ");
         int idade = sc.nextInt();
-        while (!((idade > 0) && (idade <= 150))) {
+        while (((idade <= 0) || (idade > 150))) {
             System.out.println("Idade inválida!");
             System.out.println("O IDADE DEVE ESTAR ENTRE 0 E 150!");
             System.out.println("Informe a idade: ");
